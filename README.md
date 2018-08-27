@@ -10,11 +10,23 @@ What you'd do differently next time
 
 I’ll perform topic analysis on customer reviews. I am a user of Amazon Echo/Alexa. I am interested in learning how many and what major topics I can extract out of customer reviews. The end goal is to use the insights to help business enhance self-awareness and make better business decisions. 
 
-Data: 
-Datasets: 
-Amazon Alexa Device Reviews: ~3k reviews 
-Amazon Echo Reviews: ~7k reviews
-Fields can be used: 
-Rating (used for exploration)
-Review 
+### Project Design: I performed 
 
+
+### Tools: 
+- Pandas for data manipulation
+- Pickle for data storage
+- SVD for dimension reducton
+- Kmeans for cluster anlysis
+- LDA for Topic analysis
+- Word Cloud
+ 
+### Data: 
+- Dataset #1: Amazon Alexa Device Reviews: ~3k reviews 
+- Dataset #2: Amazon Echo Reviews: ~7k reviews
+
+### Algorithms:
+- Cluster Analysis
+- Topic Modeling
+
+### Learning and Recommended nextsteps:
