@@ -1,12 +1,12 @@
 # Insights of Amazon Echo Reivews
 
-The project performed a topic analysis on customer reviews for Amazon Echo. This is to extact insights regarding what customer care. The end goal is to use the insights to help business enhance self-awareness and make better business decisions. This can potentially be applied to reviews of any product.
+The project is to perform a topic analysis on customer reviews for Amazon Echo. This is to understand what major factors drive positive vs. negative experience. The end goal is to use the insights to help business enhance self-awareness and make better business decisions. This has the potential to be applied to any reviews of any product or service. 
 
 ### Project Design: 
-Step 1: Clean up datasets and combine two datasets into one for analysis
-Step 2: Break down reviews into positive (>3 rating) and negative sentiment (<3 rating) groups based on ratings. 
+Step 1: Clean up datasets and combine two datasets for analysis
+Step 2: Break down reviews into positive (>3 rating) and negative sentiment (<3 rating) groups based on ratings 
 Step 3: Performed cluster analysis on positive and negatement sentiment groups 
-Step 4: If limited informaiton from step 3, perform topic modeling on positive and negatement sentiment groups 
+Step 4: If limited informaiton extacted from step 3, perform topic modeling on positive and negatement sentiment groups 
 
 ### Tools: 
 - Pandas for data manipulation
@@ -26,5 +26,5 @@ Step 4: If limited informaiton from step 3, perform topic modeling on positive a
 
 ### Learning and Recommended nextsteps:
 - Learned to use cloud computing for large scale data. Worked with AWS and Zeppline and solved technical challenges
-- For next steps, possibility to combine cluster analysis with topic modeling to extract more precise informaiton
+- For next steps, possibile to combine cluster analysis with topic modeling to extract more precise informaiton
 
