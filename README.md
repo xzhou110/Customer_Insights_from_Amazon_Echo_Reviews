@@ -1,16 +1,9 @@
 # Insights of Amazon Echo Reivews
 
-Summary: 1-3 page PDF summarizing your project scope, results, and any areas that you tried that didn't work out. This document should include the following sections:
-Project design
-Tools
-Data
-Algorithm(s)
-What you'd do differently next time
+The project performed a topic analysis on customer reviews for Amazon Echo. This is to extact insights regarding what customer care. The end goal is to use the insights to help business enhance self-awareness and make better business decisions. This can be apply to any general reviews
 
-
-I’ll perform topic analysis on customer reviews. I am a user of Amazon Echo/Alexa. I am interested in learning how many and what major topics I can extract out of customer reviews. The end goal is to use the insights to help business enhance self-awareness and make better business decisions. 
-
-### Project Design: I performed 
+### Project Design: 
+Firstly, reviews were broken down to positive (>3 rating) and negative sentiment (<3 rating)groups based on ratings. Performed cluster analysis and topic modeling on positive and negatement sentiment groups 
 
 
 ### Tools: 
@@ -30,3 +23,6 @@ I’ll perform topic analysis on customer reviews. I am a user of Amazon Echo/Al
 - Topic Modeling
 
 ### Learning and Recommended nextsteps:
+- Learned to use cloud computing for large scale data. Worked with AWS and Zeppline for analysis on Cloud
+- Combine cluster analysis with topic modeling to get more precise topics
+
