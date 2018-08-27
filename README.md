@@ -1,4 +1,4 @@
-# Extract insights of Amazon Echo Reviews
+# Extract Insights of Amazon Echo Reviews
 
 The project is to perform a topic analysis on customer reviews for Amazon Echo. This is to understand what major factors drive positive vs. negative experience. The end goal is to use the insights to help business enhance self-awareness and make better decisions. The modeling from this project can be applied to any reviews of any product or service for insight extraction. 
 
