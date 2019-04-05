@@ -1,12 +1,12 @@
 # Customer Insights from Amazon Echo Reviews
 
-The project is to perform a topic analysis on customer reviews for Amazon Echo. This is to understand what major factors drive positive vs. negative experience. The end goal is to use the insights to help business enhance self-awareness and make better decisions. The modeling from this project can be applied to any reviews of any product or service for insight extraction. 
+The project is to perform a topic analysis on customer reviews for Amazon Echo. This is to understand major drivers of positive vs. negative customer experience. The end goal is to use the insights to help business enhance self-awareness and make better decisions. The modeling from this project can be applied to any reviews of any product or service to extract insights. 
 
 ### Project Design: 
-Step 1: Clean up datasets and combine two datasets for analysis
-Step 2: Break down reviews into positive (>3 rating) and negative sentiment (<3 rating) groups based on ratings 
-Step 3: Performed cluster analysis on positive and negative sentiment groups 
-Step 4: If limited information extracted from step 3, perform topic modeling on positive and negative sentiment groups 
+Step 1: Data retrieval and exploration
+Step 2: Broke down reviews into positive (>3 rating) and negative sentiment (<3 rating) groups based on ratings 
+Step 3: Performed cluster analysis on positive and negative sentiment groups respectively 
+Step 4: If limited information obtained from step 3, perform topic modeling to get more in-depth inisghts 
 
 ### Tools: 
 - Pandas for data manipulation
@@ -25,6 +25,5 @@ Step 4: If limited information extracted from step 3, perform topic modeling on 
 - Topic Modeling
 
 ### Learning and Recommended Next Steps:
-- Learned to use cloud computing for large scale data. Worked with AWS and Zeppline and solved technical challenges
-- For next steps, possible to combine cluster analysis with topic modeling to extract more precise information
-
+- Leveraged cloud computing for processing large scale data. Worked with AWS and Zeppline and solved technical challenges
+- For next steps, explore possibility of combining cluster analysis with topic modeling to produce more insights
